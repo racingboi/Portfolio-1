@@ -19,7 +19,7 @@ const AboutMe = () => {
                     <img src={ImageUrl} alt="Loading ..." style={{borderColor:uiColor}} />
                 </div>
                 <div className={classes.contactCard}>
-                    <h1 style={{color:uiColor}}>About Me</h1>
+                    <h1 style={{color:uiColor}}>Về tôi</h1>
                     <div>
                         {PersonalData.aboutMe}
                     </div>
@@ -27,7 +27,7 @@ const AboutMe = () => {
                         <SocialLinks className={classes.links} />
                     </div>
                     <a href={PersonalData.resumeLink} target='_blank noreferrer'>
-                        <Button className={classes.resumeBtn}>See My Resume</Button>
+                        <Button className={classes.resumeBtn}>Xem sơ yếu lý lịch của tôi</Button>
                     </a>
                 </div>
             </div>

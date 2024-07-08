@@ -4,7 +4,7 @@ function Routes(props) {
 
     const toggleActive=(index)=>{
         const navs=document.getElementsByClassName("navs");
-        console.log(navs.length);
+        // console.log(navs.length);
         for(let i=0;i<navs.length;i++){
             navs[i].classList.remove("active");
         };

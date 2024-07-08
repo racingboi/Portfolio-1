@@ -102,7 +102,7 @@ const ContactForm = (props) => {
                 'Are You Sure You Want To Leave ? All your entered data will be lost!'}
             />
             <div className={classes.contactFormCard}>
-                <h1 style={{ color: nonThemeColor }}>Leave A Message</h1>
+                <h1 style={{ color: nonThemeColor }}>Để lại lời nhắn</h1>
                 <form onFocus={formFocussedHandler} action="" onSubmit={formSubmitHandler} className={formClasses}>
                     <input value={enteredName}
                         onBlur={nameBlurHandler}

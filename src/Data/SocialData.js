@@ -1,4 +1,4 @@
-const githubLink="https://github.com/killer-abhi";
+const githubLink="https://github.com/racingboi";
 const instaLink="https://instagram.com/killer._abhi";
 const linkedInLink="https://www.linkedin.com/in/abhishek-kumar-1a295217b/";
 const twitterLink="https://twitter.com/ABHIDK0914";

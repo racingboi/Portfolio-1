@@ -11,7 +11,7 @@ const ProgrammingSkills = (props) => {
 
     return (
         <div className={classes.mainCard}>
-            <h1 style={{color:nonThemeColor}}>Programming <span style={{ color:uiColor}}>SkillSet</span></h1>
+            <h1 style={{color:nonThemeColor}}>Kĩ năng<span style={{ color:uiColor}}> lập trình</span></h1>
             <div className={classes.skillSetCard} style={{ color: nonThemeColor }}>
                 {skills.map((Item, index) =>
                     <div className={classes.skillItem} style={{borderColor:uiColor}} key={index}>

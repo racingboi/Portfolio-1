@@ -21,12 +21,12 @@ const Projects = (props) => {
                     <img src={projectCoverImg} alt="" />
                 </section>
                 <section className={styles.projectHeader}>
-                    <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
-                    <div>My works makes use of vast variety of latest technology tools. My best experience is to create React projects and deploy them to web applications using Github Pages.</div>
+                    <h1><span style={{ color: nonThemeColor }}>Tác phẩm gần đây </span><span style={{ color: uiColor }}>của tôi</span></h1>
+                    <div>Công việc của tôi sử dụng rất nhiều công cụ công nghệ mới nhất. Trải nghiệm tốt nhất của tôi là tạo các dự án React và triển khai chúng trên các ứng dụng web bằng Trang Github.</div>
                 </section>
             </div>
             <ProgrammingSkills />
-            <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>My Projects</h1>
+            <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>Những dự án của tôi</h1>
             <div className={styles.projectList}>
                 {projects.map((item, index) => {
                     return <ProjectItem key={index} project={item} />

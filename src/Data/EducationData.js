@@ -4,10 +4,6 @@ const languagesDone = [
         percentDone: 90
     },
     {
-        name: 'Python',
-        percentDone: 70
-    },
-    {
         name: 'React Js',
         percentDone: 80
     },
@@ -16,9 +12,24 @@ const languagesDone = [
         percentDone: 70
     },
     {
-        name: 'Dart',
-        percentDone:40
+        name: 'Next Js',
+        percentDone:60
+    },
+    {
+        name: 'Firebase',
+        percentDone: 60
+    },
+    {
+        name: 'Php',
+        percentDone:60
+    },{
+        name: 'Python',
+        percentDone: 40
+    },{
+        name: 'c#',
+        percentDone: 30
     }
+
 ]
 const EducationData={
     collegeName:"Rajkiya Engineering College, Ambedkar Nagar",
